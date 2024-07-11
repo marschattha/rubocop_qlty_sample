@@ -1,0 +1,5 @@
+inherit_from: https://gist.githubusercontent.com/marschattha/3113bf9c5f3dcd82c2450a5acf017d85/raw/41259fd0259f2b85d929187b1b3f745d8e9a76a8/.inherit_rubocop.yml
+# inherit config disables Layout/EmptyLines
+
+Layout/IndentationConsistency:
+  Enabled: false
