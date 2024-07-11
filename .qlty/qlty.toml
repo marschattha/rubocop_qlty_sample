@@ -1,0 +1,11 @@
+config_version = "0"
+
+ignore_patterns = []
+test_patterns = ["**/test/**", "**/spec/**"]
+
+[sources.default]
+repository = "https://github.com/qltyai/plugins.git"
+tag = "v0.102.0"
+
+[[plugin]]
+name = "rubocop"
